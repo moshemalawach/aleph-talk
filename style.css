@@ -1,0 +1,60 @@
+/*.reveal a {
+    color: #fff;
+}
+
+.reveal a:hover {
+    color: #fc9813;
+    text-decoration: underline;
+}
+
+.reveal a.url {
+    color: #fc9813;
+}
+
+.reveal a.url:hover {
+    color: #fc9813;
+    text-decoration: underline;
+}
+
+body {
+    background-color: #164350;
+}*/
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+section {
+  font-family: 'Varela Round', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Varela Round', sans-serif !important;
+  text-transform: inherit !important;
+}
+
+ul ul {
+  font-size: 0.75em !important;
+}
+
+minor {
+  color: grey;
+}
+
+minor:before {
+  content: '(';
+}
+
+minor:after {
+  content: ')';
+}
+
+.left-align {
+  text-align: left;
+}
+
+.footnote {
+  width: 100%;
+  text-align: left;
+  color: grey;
+}
+
+.reveal section img { background:none; border:none; box-shadow:none; }

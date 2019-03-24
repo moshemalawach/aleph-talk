@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Moshe Malawach">
+  <title>Aleph</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="https://revealjs.com/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="https://revealjs.com/css/theme/night.css" id="theme">
+  <link rel="stylesheet" href="style.css"/>
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'https://revealjs.com/css/print/pdf.css' : 'https://revealjs.com/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="https://revealjs.com/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+  <h1 class="title">Aleph</h1>
+  <p class="author">Moshe Malawach</p>
+  <p class="date">March 23rd, 2019</p>
+</section>
+
+<section class="slide level2">
+
+<p>Aleph is an universal layer-2 platform</p>
+</section>
+<section><section id="why" class="titleslide slide level1"><h1>Why ?</h1></section><section id="section" class="slide level2">
+<h2></h2>
+<ul>
+<li>Delays</li>
+<li>Costs</li>
+<li>Onboarding</li>
+<li>Storage</li>
+</ul>
+</section><section id="how" class="slide level2">
+<h2>How ?</h2>
+<ul>
+<li>Off-chain state</li>
+<li>Free actions</li>
+<li>IPFS incentive</li>
+<li>Cross-chain</li>
+</ul>
+</section></section>
+<section><section id="network" class="titleslide slide level1"><h1>Network</h1></section><section id="section-1" class="slide level2">
+<h2></h2>
+<p><img src="mermaid-images/4a63faccf83f828d3b9401cc7575cdd49dd8a9ee.png" /></p>
+</section><section id="section-2" class="slide level2">
+<h2></h2>
+<ul>
+<li>Replicated data</li>
+<li>All the data isn't everywhere</li>
+<li>Per dApp &quot;subnetwork&quot;</li>
+</ul>
+</section><section id="current-state" class="slide level2">
+<h2>Current state</h2>
+<ul>
+<li>Proof of Concept testnet</li>
+<li>Storage</li>
+<li>Posts</li>
+<li>Aggregates</li>
+<li>No VMs (yet)</li>
+<li>Only NULS (so far)</li>
+</ul>
+</section><section id="use-cases" class="slide level2">
+<h2>Use cases</h2>
+<ul>
+<li>Data Store</li>
+<li>Social networks</li>
+<li>Medium</li>
+<li>Instagram</li>
+<li>Chat</li>
+<li>IoT storage</li>
+</ul>
+</section><section id="future-use-cases" class="slide level2">
+<h2>Future use cases</h2>
+<ul>
+<li>Games</li>
+<li>Currencies/Tokens</li>
+<li>Business Applications</li>
+<li>...</li>
+</ul>
+</section><section id="section-3" class="slide level2">
+<h2></h2>
+<p><img src="graphviz-images/245e186d6059d5b0c187b3056a8ff2f98319a578.png" /></p>
+</section><section id="vms-smart-contracts" class="slide level2">
+<h2>VMs / Smart Contracts</h2>
+<ul>
+<li>State object link</li>
+<li>ref. previos hash</li>
+<li>link as a DAG</li>
+</ul>
+</section><section id="section-4" class="slide level2">
+<h2></h2>
+<p><img src="graphviz-images/262cfdd5ff8961e425b010811748936eed35066a.png" /></p>
+</section></section>
+<section><section id="example-application" class="titleslide slide level1"><h1>Example application</h1></section><section id="repositories" class="slide level2">
+<h2>Repositories</h2>
+<p><a href="https://github.com/aleph-im/aleph-blogs" class="uri">https://github.com/aleph-im/aleph-blogs</a> <a href="https://github.com/aleph-im/simple-dapp" class="uri">https://github.com/aleph-im/simple-dapp</a></p>
+</section></section>
+<section><section id="thanks" class="titleslide slide level1"><h1>Thanks</h1></section><section id="section-5" class="slide level2">
+<h2></h2>
+<p>Project <a href="https://aleph.im">Aleph.im</a></p>
+<p>Moshe Malawach</p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="https://revealjs.com/lib/js/head.min.js"></script>
+  <script src="https://revealjs.com/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'https://revealjs.com/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'https://revealjs.com/plugin/zoom-js/zoom.js', async: true },
+              { src: 'https://revealjs.com/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
