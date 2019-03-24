@@ -1,5 +1,3 @@
 *.tex
 *.swp
 node_modules
-graphviz-images
-mermaid-images
