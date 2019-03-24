@@ -5,12 +5,12 @@ PANDOC_FLAGS =\
     --filter=filters/pandoc-mermaid.py \
     --filter=filters/graphviz.py
 
-all: talk.html talk.tex talk.pdf talk-handout.pdf talk-notes.pdf
+all: index.html talk.tex talk.pdf talk-handout.pdf talk-notes.pdf
 
 start: talk.html
 	sensible-browser $<
 
-talk.html: $(talk-file)
+index.html: $(talk-file)
 	pandoc -t revealjs -s -V revealjs-url=https://revealjs.com --css style.css \
 		-V theme=night $(PANDOC_FLAGS) -o $@ $<
 
@@ -34,6 +34,6 @@ talk-handout.pdf: $(talk-file)
 		-o $@ $<
 
 clean:
-	rm talk.html talk.pdf talk.tex talk-handout.pdf talk-notes.pdf
+	rm index.html talk.pdf talk.tex talk-handout.pdf talk-notes.pdf
 
 .PHONY: all clean open
