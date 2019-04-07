@@ -73,18 +73,30 @@ graph LR
 - No VMs (yet)
 - Only NULS (so far)
 
-## In developement
+## In development
 
 - NEO
 - Ethereum
+
+# Use cases
+
+## Application
+
+- New dApps
+    - Aleph SDK
+
+- Existing blockchain dApps, modifying:
+    - Smart-Contracts (tx batching/message signing)
+    - Client-side code
 
 ## Use cases
 
 - Data Store
 - Social networks
-  - Medium
-  - Instagram
-  - Chat
+    - Medium
+    - Instagram
+    - Chat
+
 - IoT storage
 - GPDR Compliance
 
@@ -94,6 +106,8 @@ graph LR
 - Currencies/Tokens
 - Business Applications
 - ...
+
+# Data
 
 ##
 
