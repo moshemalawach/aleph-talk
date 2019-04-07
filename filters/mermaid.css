@@ -82,6 +82,14 @@ color: #fff;
   background:url('../../images/047-planets-2.svg');
 }
 
+.icon-node.assets div:before {
+  background:url('../../images/008-bank.svg');
+}
+
+.icon-node.finances div:before {
+  background:url('../../images/finances.svg');
+}
+
 .icon-node.i32 {
   width: 32px;
   height: 32px;

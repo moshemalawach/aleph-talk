@@ -1,7 +1,7 @@
 ---
 author: Moshe Malawach
 title: Aleph
-date: March 23rd, 2019
+date: April 7th, 2019
 ---
 
 Aleph is an universal layer-2 platform
@@ -25,7 +25,7 @@ Aleph is an universal layer-2 platform
 
 # Network
 
-## 
+##
 
 ```mermaid
 graph LR
@@ -39,8 +39,11 @@ graph LR
   ALP --- STR(Distributed & Incentivized Storage)
   STR --- IPFS
   ALP --- BlockChain
-  
-  class User,Frontend,APIS,P2PN,ALP,SVM,STR,IPFS,BlockChain icon-node;
+  BlockChain --- SMC(Smart Contracts)
+  BlockChain --- Ledger
+  BlockChain --- Assets
+
+  class User,Frontend,APIS,P2PN,ALP,SVM,STR,IPFS,BlockChain,SMC,Ledger,Assets icon-node;
   class User girl;
   class Frontend web;
   class APIS api;
@@ -50,6 +53,9 @@ graph LR
   class ALP planets;
   class IPFS ipfs;
   class BlockChain blockchain;
+  class SMC contract;
+  class Ledger finances;
+  class Assets assets;
 ```
 
 ##
@@ -67,6 +73,11 @@ graph LR
 - No VMs (yet)
 - Only NULS (so far)
 
+## In developement
+
+- NEO
+- Ethereum
+
 ## Use cases
 
 - Data Store
@@ -75,6 +86,7 @@ graph LR
   - Instagram
   - Chat
 - IoT storage
+- GPDR Compliance
 
 ## Future use cases
 
@@ -127,7 +139,7 @@ digraph G {
 	b3 -> a3;
 }
 ```
- 
+
 # Example application
 
 ## Repositories
@@ -142,4 +154,3 @@ digraph G {
 Project [Aleph.im](https://aleph.im)
 
 Moshe Malawach
-
